@@ -1,0 +1,9 @@
+etc
+usr/bin/diodon
+usr/lib/*/diodon/plugins/indicator
+usr/share/applications
+usr/share/diodon
+usr/share/glib-2.0/schemas/net.launchpad.Diodon.gschema.xml
+usr/share/icons
+usr/share/locale
+usr/share/man

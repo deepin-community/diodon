@@ -1,0 +1,118 @@
+diodon (1.11.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Fix custom-library-search-path
+  * Removed invalid configure.in file (Closes: #997655)
+  * Bump Standard-Version to 4.6.0
+
+ -- Oliver Sauder <os@esite.ch>  Thu, 04 Nov 2021 22:46:18 +0400
+
+diodon (1.11.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Removed obsolete apport configuration files (Closes: #990435)
+  * Properly handled previously renamed autostart config file (Closes: 990137)
+  * Use dh gir addon to properly calcuate gir:Depends (Closes: 991081)
+  * Bump Standard Version to 4.5.1
+
+ -- Oliver Sauder <os@esite.ch>  Fri, 23 Jul 2021 22:00:54 +0400
+
+diodon (1.11.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Add Vcs-Browser link
+  * Set Multi-Arch of package diodon-dev to same
+
+ -- Oliver Sauder <os@esite.ch>  Mon, 05 Oct 2020 16:32:21 +0200
+
+diodon (1.10.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Switch to Ayatana AppIndicator (Closes: #956764)
+  * Remove CPU intensive timer when using primary selection (Closes: #956008)
+  * Update translations
+  * Replace Vcs-Bzr link with Vcs-Git
+  * Update minimum build dependency version of libgtk
+  * Bump Standard Version to 4.5.0
+
+ -- Oliver Sauder <os@esite.ch>  Wed, 03 Jun 2020 16:57:13 +0200
+
+diodon (1.9.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add support for valac 0.46 (Closes: #951924)
+  * Replace waf with meson as build system (Closes: #936399, #943038)
+  * Change Vcs to git
+  * Update minimum build dependency versions
+  * Bump Standard Version to 4.4.0
+
+ -- Oliver Sauder <os@esite.ch>  Tue, 25 Feb 2020 20:01:12 +0400
+
+diodon (1.8.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Remove gee dependency (LP: #1745877)
+  * Add support for valac 0.40 (Closes: #891628)
+  * Set Section of libdiodon to libs
+  * Set Section of diodon-dev to libdevel
+  * Bump Standard Version to 4.1.3
+  * Fix debian-watch-uses-insecure-uri
+  * Use compat version 11
+
+ -- Oliver Sauder <os@esite.ch>  Sun, 11 Mar 2018 20:37:08 +0100
+
+diodon (1.7.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Add initial Wayland support (LP: #1727042)
+  * Workaround for hotkey not working on various DEs (LP: #1630375)
+  * Support instante paste on XFCE4 Terminal (LP: #1707041)
+  * Move from cdbs to dh calls
+  * Bump Standard Version to 4.1.2
+  * Use compat version 10
+
+ -- Oliver Sauder <os@esite.ch>  Sat, 16 Dec 2017 19:39:18 +0100
+
+diodon (1.6.0-1) unstable; urgency=medium
+
+  * New upstream release 1.6.0 (Closes: #824965)
+  * Remove usage of dbus-launch (Closes: #823055, #836087)
+  * Remove dependency libunique3 (Closes: #827235)
+  * Added DEB_BUILD_OPTIONS support
+  * Fixed dep5-copyright-license-name-not-unique
+
+ -- Oliver Sauder <os@esite.ch>  Sat, 19 Aug 2017 17:03:59 +0200
+
+diodon (1.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Removed obsolete libunique and libxml dependency
+  * Updated to libgee-0.8 dependency (Closes: #753859)
+  * Allows autostart on all DEs except KDE (Closes: #777670)
+  * diodon needs specific version of libdiodon0
+  * Added deps dbus-x11, at-spi2-core, python-dbus,
+    zeitgeist-core and xvfb to run tests
+  * out-of-date-standards-version, updated to 3.9.5
+  * Fixed debian-watch-may-check-gpg-signature
+  * Removed obsolete package diodon-plugins
+  * Fixing wrong-section-according-to-package-name gir1.2-diodon-1.0
+  * make sure that dh_icons gets called
+  * Make gir1.2- package Multi-Arch: same
+
+ -- Oliver Sauder <os@esite.ch>  Sat, 21 Feb 2015 21:11:07 +0300
+
+diodon (1.0.3-1) unstable; urgency=low
+
+  * New upstream release.
+  * Added missing libgee-dev binding dependency
+  * Using valac dependency instead of valac-0.16
+
+ -- Oliver Sauder <os@esite.ch>  Sat, 13 Jul 2013 17:45:52 +0300
+
+diodon (1.0.1-1) experimental; urgency=low
+
+  * Initial release (Closes: #698282)
+
+ -- Oliver Sauder <os@esite.ch>  Wed, 16 Jan 2013 10:59:10 +0200

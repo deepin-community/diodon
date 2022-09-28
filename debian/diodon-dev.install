@@ -1,0 +1,6 @@
+usr/include/diodon
+usr/lib/*/libdiodon.so
+usr/lib/*/pkgconfig
+usr/share/gir-1.0
+usr/share/vala/vapi/diodon.deps
+usr/share/vala/vapi/diodon.vapi

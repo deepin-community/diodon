@@ -1,0 +1,10 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+
+data/diodon.desktop.in
+data/net.launchpad.Diodon.gschema.xml
+[type: gettext/glade]data/preferences.ui
+libdiodon/clipboard-menu.vala
+[type: gettext/ini]plugins/indicator/indicator.plugin.in
+[type: gettext/ini]unity-scope-diodon/clipboard.scope.in.in
+unity-scope-diodon/unity-scope-diodon.vala

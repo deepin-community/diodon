@@ -1,0 +1,2 @@
+version=3
+opts=pgpsigurlmangle=s/$/.asc/ https://launchpad.net/diodon/+download .*/diodon-([0-9.]+)\.tar\.xz
